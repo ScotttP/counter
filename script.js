@@ -26,6 +26,5 @@ function subtractCount (){
    
 }
 function resetCount (){
-    let curValue = 0;
-    document.getElementById('displayCount').innerHTML= curValue;
+    document.getElementById('displayCount').innerHTML= curValue -= curValue;
 }
