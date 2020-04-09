@@ -1,3 +1,15 @@
-.container{
-    border: 2px solid black;
+.divContainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
 }
+.contentContainer{
+    background-color: antiquewhite;
+    border: 5px black solid;
+    width: 200px;
+    min-height: 100px;
+}
+
